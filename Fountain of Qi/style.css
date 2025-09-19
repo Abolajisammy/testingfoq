@@ -715,7 +715,7 @@ header nav img{
 .sidebar{
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
+    justify-content: first baseline;
     align-items: center;
     position: fixed;
     top: 0;
