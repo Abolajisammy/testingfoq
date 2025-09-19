@@ -675,7 +675,7 @@ footer{
 
 
 .mobile-header{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -715,15 +715,14 @@ header nav img{
 .sidebar{
     display: flex;
     flex-flow: column;
-    justify-content: first baseline;
-    align-items: first baseline;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 0%;
-    padding: 20px;
     height: 100vh;
-    border-right: solid 1px rgb(0, 0, 0);
     transition: all ease-in-out 1s;
     opacity: 0;
     visibility: hidden;
@@ -734,10 +733,11 @@ header nav img{
 
 }
 .side-bar-nav{
-    width: calc(100% - 40px);
+    padding: 20px 0px;
+    margin: 0;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     transition: all ease-in-out 1s;
 }
@@ -745,6 +745,8 @@ header nav img{
     color: #1F847E;
     font-size: 25px;
     margin: 10px 0px;
+    padding: 0;
+
 }
 .side-bar-nav .hamburger{
     font-size: 20px;
@@ -753,16 +755,7 @@ header nav img{
     color:#1F847E;
     font-weight: 100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.header-company-name-sidebar{
-    text-align: center;
-    width: calc(100% - 40px);
-    padding: 20px;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 100;
+    display: none;
 }
 .close-button{
     width: 0px;
@@ -800,6 +793,17 @@ header nav img{
 }
 .sidebar ul a{
     text-decoration: none;
+}
+.hamburger-side-bar{
+    font-size: 20px;
+    color: #1F847E;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border: solid 1px;
+    padding: 5px 20px;
+    cursor: pointer;
 }
 .sidebar-offerings-wrapper{
     display: flex;
