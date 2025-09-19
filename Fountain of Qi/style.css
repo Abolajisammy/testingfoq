@@ -770,7 +770,7 @@ header nav img{
     opacity: 0;
     transition: all ease-in-out 1s;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
 }
