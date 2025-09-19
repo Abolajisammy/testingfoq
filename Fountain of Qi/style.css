@@ -777,6 +777,7 @@ header nav img{
     opacity: 0;
     transition: all ease-in-out 1s;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -789,7 +790,7 @@ header nav img{
     padding: 10px 20px;
     color: #1F847E;
     text-transform: uppercase;
-        transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
 
 }
 .sidebar ul li:hover{
@@ -802,7 +803,7 @@ header nav img{
 }
 .sidebar-offerings-wrapper{
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -812,12 +813,11 @@ header nav img{
 }
 .sidebar-offerings-wrapper .inner-offerings-wrapper{
     display: flex;
-    flex-flow: column;
     justify-content: center;
     align-items: center;
     height: fit-content;
     margin: 20px 0px;
-    width: 100%;
+    width: 90%;
 }
 .sidebar-offerings-wrapper .offerings-image{
     height: 150px;
@@ -832,6 +832,7 @@ header nav img{
     align-items: center;
     justify-content: center;
     transition: all ease-in-out 0.5s;
+    margin: 20px;
 
 }
 .sidebar-offerings-wrapper .offerings-image:hover{
