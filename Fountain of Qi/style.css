@@ -661,3 +661,733 @@ footer{
     text-decoration: none;
     border-bottom: solid 2px;
 }
+
+.sidebar{
+    display: none;
+}
+.mobile-header{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    
+
+
+
+.mobile-header{
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1F847E;
+    transition: all ease-in-out 1s;
+
+}
+.mobile-header h2{
+    color: #ECE8E7;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+header nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: calc(100% - 20px);
+}
+header nav img{
+    width: 30px;
+    transition: all ease-in-out 1s;
+}
+.hamburger{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    padding: 20px;
+    height: 100vh;
+    border-right: solid 1px rgb(0, 0, 0);
+    transition: all ease-in-out 1s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.side-bar-nav{
+    width: calc(100% - 40px);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease-in-out 1s;
+}
+.side-bar-nav h2{
+    color: #1F847E;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.side-bar-nav .hamburger{
+    font-size: 20px;
+    border-bottom: #1F847E solid 2px;
+    padding: 10px 0px;
+    color:#1F847E;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header-company-name-sidebar{
+    text-align: center;
+    width: calc(100% - 40px);
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+}
+.close-button{
+    width: 0px;
+    display: none;
+    transition: all ease-in-out 1s;
+
+}
+
+.sidebar ul{
+    margin-top: 20px;
+    width: 100%;
+    opacity: 0;
+    transition: all ease-in-out 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 10px 20px;
+    color: #1F847E;
+    text-transform: uppercase;
+        transition: all ease-in-out 0.5s;
+
+}
+.sidebar ul li:hover{
+    transition: all ease-in-out 0.5s;
+    color: #ECE8E7;
+    background-color: #1F847E;
+}
+.sidebar ul a{
+    text-decoration: none;
+}
+.sidebar-offerings-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sidebar-offerings-wrapper a{
+    text-decoration: none;
+}
+.sidebar-offerings-wrapper .inner-offerings-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 20px 0px;
+    width: 100%;
+}
+.sidebar-offerings-wrapper .offerings-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+
+}
+.sidebar-offerings-wrapper .offerings-image:hover{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    transition: all ease-in-out 0.5s;
+}
+
+#offering-text{
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ece8e7a2;
+}
+
+
+
+
+.desktop-header{
+    display: none;
+}
+
+.first-section{
+    height: 80vh;
+    background-image: url(/product_images/meditation.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+}
+.second-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 5vh 20px;
+    background-color: rgb(31, 132, 126);
+}
+.second-section h3{
+    font-size: 25px;
+    font-family: degular;
+    color: #ECE8E7;
+    line-height: 48px;
+    margin: 50px 0px;
+    width: 60%;
+    text-align: center;
+}
+.offerings-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.offerings-wrapper a{
+    text-decoration: none;
+}
+.inner-offerings-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 50px 0px;
+    width: 100%;
+}
+.offerings-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+}
+.offerings-image:hover{
+    height: 205px;
+    width: 205px;
+    border-radius: 125px;
+    transition: all ease-in-out 0.5s;
+}
+#offering-text{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.meditation{
+    background-image: url(/product_images/meditation.jpeg);
+    background-position: bottom;
+}
+.qijong{
+    background-image: url(/product_images/qijong.JPG);
+}
+.breathwork{
+    background-image: url(/product_images/qijong_2.jpg);
+}
+.retreats{
+    background-image: url(/product_images/retreat.jpg);
+}
+.inner-offerings-wrapper h6{
+    font-family: degular;
+    font-size: 20px;
+    color: rgb(236, 232, 231);
+    line-height: 28px;
+    margin: 20px 0px;
+}
+
+.more-offerings{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.more-offerings article{
+    font-size: 18px;
+    font-family: europa;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+    border: solid 2px;
+}
+.more-offerings div{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.more-offerings:hover{
+    background-color: #ECE8E7;
+    transition: all ease-in-out 1s;
+    color: #1F847E;
+}
+.more-offerings article:hover{
+    background-color: #ECE8E7;
+    transition: all ease-in-out 1s;
+    color: #1F847E;
+}
+.more-offerings article{
+    font-size: 20px;
+    font-family: degular;
+    text-decoration: none;
+    color: rgb(236, 232, 231);
+}
+.more-offerings img{
+    width: 20px;
+    margin-left: 15px;
+}
+.third-section{
+    padding: 50px 20px;
+    background-color: #ECE8E7;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.advantage-wrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.middle-advantage{
+    width: 80%;
+    height: 60vh;
+    background-image: url(/product_images/Chi_Laci\ Montrose.jpg);
+    margin: 20px 0px;
+}
+.left-advantage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.inner-advantage-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.inner-advantage-wrapper .inner-left{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-left h6{
+    font-size: 25px;
+    line-height: 35px;
+    color: #1F847E;
+    text-align: center;
+    width: 100%;
+}
+.inner-left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #1F847E;
+    text-align: center;
+    width: 100%;
+    font-family: degular;
+}
+.inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.inner-right .image-wrapper{
+    background-image: url(/product_images/med-stone.jpg);
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin: 20px 0px;
+}
+
+.right-advantage{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.right-advantage .inner-left h6{
+    font-size: 25px;
+    line-height: 35px;
+    color: #1F847E;
+    text-align: center;
+    width: 100%;
+}
+.right-advantage .inner-left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #1F847E;
+    text-align: center;
+    width: 100%;
+    font-family: degular;
+}
+.right-advantage .inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.third-section h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 20px 0px;
+    color: #1F847E;
+    text-align: center;
+}
+.foqi-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+}
+.foqi-wrapper p{
+    width: 100%;
+    color: #1F847E;
+    font-family: degular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+.foqi-wrapper article{
+    width: 100%;
+    color: #1F847E;
+    font-family: degular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.fourth-section{
+    padding: 50px 20px;
+}
+
+.founder-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-photo{
+    width: 80%;
+    height: 60vh;
+    background-image: url(/nicoles_images/nicole-fountain-of-qi.jpg);
+}
+.left-founder{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.top-founder h2{
+    font-size: 30px;
+    color: #1F847E;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.top-founder h3{
+    font-size: 25px;
+    color: #1F847E;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+.top-founder h4{
+    font-size: 20px;
+    color: #1f847db6;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.top-founder p{
+    font-size: 20px;
+    color: #000000b6;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.left-founder a{
+    width: 90%;
+    text-align: center;
+    color: #1F847E;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+    text-decoration: none;
+    border: solid 2px;
+}
+.fifth-section{
+    background-color: #ECE8E7;
+    padding: 50px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-section
+ h3{
+    font-size: 30px;
+    line-height: 38px;
+    color: #1f847db6;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+ }
+.testimony-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;margin-top: 50px;
+}
+.individual-testimony{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.individual-testimony p{
+    color: #1F847E;
+    font-family: degular;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.photo-name{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 0px;
+}
+.person{
+    background-image: url(/product_images/person.png);
+}
+.name{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.name h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #1F847E;
+}
+.name p{
+    font-size: 14px;
+    color: #1f847d8a;
+}
+.sixth-section{
+    background-color: #ECE8E7;
+    padding: 20px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.board-wrapper{
+    background-image: url(/product_images/board\ \(3\).jpg);
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.stats{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-stats{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.inner-stats h2{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 900;
+    color:#ECE8E7;
+}
+.inner-stats article{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 100;
+    color:#ECE8E7;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #1F847E;
+}
+.footer-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo img{
+    width: 200px;
+}
+.social-link{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-link h5{
+    font-size: 18px;
+    line-height: 33px;
+    color: #ECE8E7;
+}
+.social-link a{
+    font-size: 18px;
+    line-height: 33px;
+    color: #ECE8E7;
+    text-decoration: none;
+    border-bottom: solid 2px;
+    padding-bottom: 5px;
+    margin: 20px 0px;
+    font-family: degular;
+}
+.join-email-list{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    height: 40px;
+    width: 250px;
+    background-color: #ECE8E7;
+    border: none;
+    margin: 20px 0px;
+    outline: #1F847E;
+    color: #1F847E;
+    font-size: 18px;
+    font-family: degular;
+    padding: 0px 10px;
+}
+#submit{
+    height: 40px;
+    width: 250px;
+    color: #ECE8E7;
+    border: none;
+    border-bottom: solid 2px;
+    margin: 20px 0px;
+    font-size: 18px;
+    font-family: degular;
+    padding-bottom: 20px;
+    background: none;
+    outline: none;
+}
+.footer-bottom{
+    padding: 20px 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom h6, a{
+    font-size: 18px;
+    line-height: 33px;
+    color: #ECE8E7;
+    font-weight: 200;
+}
+.footer-bottom a{
+    font-size: 18px;
+    line-height: 33px;
+    color: #ECE8E7;
+    font-weight: 200;
+    text-decoration: none;
+    border-bottom: solid 2px;
+}
+
+
+
+}
