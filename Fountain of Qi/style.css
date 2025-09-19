@@ -770,7 +770,7 @@ header nav img{
     opacity: 0;
     transition: all ease-in-out 1s;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -800,7 +800,7 @@ header nav img{
     font-weight: 100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     border: solid 1px;
     padding: 5px 20px;
     cursor: pointer;
@@ -1397,5 +1397,6 @@ footer{
 
 
 }
+
 
 
