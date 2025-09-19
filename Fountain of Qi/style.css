@@ -1,0 +1,546 @@
+    /*
+    background-color: rgb(236, 232, 231);
+    background-color: rgb(31, 132, 126);
+    background-color:rgb(115, 73, 130);
+    */
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: degular;
+    src: url(/fonts/fonnts.com-DegularDemo-Regular.otf)
+}
+    ;
+@font-face {
+    font-family: europa;
+    src: url(/fonts/EuropaNuovaRegular.ttf)
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: degular;
+}
+.desktop-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: rgb(31, 132, 126);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.desktop-header nav{
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: center;
+    width: 30%;
+}
+.left-nav ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav ul a{
+    text-decoration: none;
+    color: #ECE8E7;
+    font-family: degular;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+    border-bottom: solid 2px #ece8e700;
+}
+.left-nav a:hover{
+    border-bottom: solid 2px #ECE8E7;
+    transition: all ease-in-out 0.5s;
+}
+.middle-nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+}
+.middle-nav h3{
+    color: #ECE8E7;
+    font-size: 25px;
+}
+.right-nav{
+    width: 30%;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: center;
+}
+.right-nav a{
+    text-decoration: none;
+    color: #ECE8E7;
+    font-family: degular;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+    border-bottom: solid 2px #ece8e700;
+}
+.right-nav a:hover{
+    border-bottom: solid 2px #ECE8E7;
+    transition: all ease-in-out 0.5s;
+}
+.first-section{
+    height: 80vh;
+    background-image: url(/product_images/intro_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.second-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10vh 0vh;
+    background-color: rgb(31, 132, 126);
+}
+.second-section h3{
+    font-size: 30px;
+    font-family: degular;
+    color: #ECE8E7;
+    line-height: 48px;
+    margin: 50px 0px;
+    width: 60%;
+    text-align: center;
+}
+.offerings-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.offerings-wrapper a{
+    text-decoration: none;
+}
+.inner-offerings-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 50px 0px;
+    width: 60%;
+}
+.offerings-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+
+}
+.offerings-image:hover{
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    transition: all ease-in-out 0.5s;
+}
+#offering-text{
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+.meditation{
+    background-image: url(/product_images/meditation.jpeg);
+    background-position: bottom;
+}
+.qijong{
+    background-image: url(/product_images/qijong.JPG);
+}
+.breathwork{
+    background-image: url(/product_images/qijong_2.jpg);
+}
+.retreats{
+    background-image: url(/product_images/retreat.jpg);
+}
+.inner-offerings-wrapper h6{
+    font-family: degular;
+    font-size: 20px;
+    color: rgb(236, 232, 231);
+    line-height: 28px;
+    margin: 20px 0px;
+}
+
+.more-offerings{
+    text-decoration: none;
+    margin-top: 50px;
+}
+.more-offerings article{
+    font-size: 18px;
+    font-family: europa;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: all ease-in-out 0.5s;
+    border: solid 2px;
+}
+.more-offerings div{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.more-offerings:hover{
+    background-color: #ECE8E7;
+    transition: all ease-in-out 1s;
+    color: #1F847E;
+}
+.more-offerings article:hover{
+    background-color: #ECE8E7;
+    transition: all ease-in-out 1s;
+    color: #1F847E;
+}
+.more-offerings article{
+    font-size: 20px;
+    font-family: degular;
+    text-decoration: none;
+    color: rgb(236, 232, 231);
+}
+.more-offerings img{
+    width: 20px;
+    margin-left: 15px;
+}
+.third-section{
+    padding: 50px 20px;
+    background-color: #ECE8E7;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.advantage-wrapper{
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.middle-advantage{
+    width: 30%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/product_images/Fountain\ of\ Chi_Laci\ Montrose\ 2025-36.JPG);
+    margin: 0pc 20px;
+}
+.left-advantage{
+    width: 33%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+.inner-advantage-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 30px;
+}
+.inner-advantage-wrapper .inner-left{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+
+}
+.inner-left h6{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    text-align: right;
+    width: 100%;
+}
+.inner-left p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F847E;
+    text-align: right;
+    width: 100%;
+    font-family: degular;
+}
+.inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.inner-right .image-wrapper{
+    background-image: url(/product_images/med-stone.jpg);
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.right-advantage{
+    width: 33%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+.right-advantage .inner-left h6{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    text-align: left;
+    width: 100%;
+}
+.right-advantage .inner-left p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F847E;
+    text-align: left;
+    width: 100%;
+    font-family: degular;
+}
+.right-advantage .inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.third-section h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 20px 0px;
+    color: #1F847E;
+}
+.foqi-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: first baseline;
+    height: fit-content;
+    width: 80%;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+}
+.foqi-wrapper p{
+    width: 45%;
+    color: #1F847E;
+    font-family: degular;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+}
+.foqi-wrapper article{
+    width: 50%;
+    color: #1F847E;
+    font-family: degular;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.fourth-section{
+    padding: 150px 100px;
+}
+
+.founder-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.founder-photo{
+    width: 35%;
+    height: 60vh;
+    background-image: url(/nicoles_images/nicole-fountain-of-qi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left-founder{
+    width: 35%;
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.top-founder h2{
+    font-size: 30px;
+    color: #1F847E;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.top-founder h3{
+    font-size: 25px;
+    color: #1F847E;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+.top-founder h4{
+    font-size: 20px;
+    color: #1f847db6;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.top-founder p{
+    font-size: 20px;
+    color: #000000b6;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.left-founder a{
+    color: #1F847E;
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: solid 2px;
+}
+.fifth-section{
+    background-color: #ECE8E7;
+    padding: 100px 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-section
+ h3{
+    font-size: 30px;
+    line-height: 38px;
+    color: #1f847db6;
+    margin-bottom: 50px;
+ }
+.testimony-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: start;margin-top: 50px;
+}
+.individual-testimony{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 30%;
+}
+.individual-testimony p{
+    color: #1F847E;
+    font-family: degular;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.photo-name{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.photo-wrapper{
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+.person{
+    background-image: url(/product_images/person.png);
+}
+.name{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.name h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1F847E;
+}
+.name p{
+    font-size: 16px;
+    color: #1f847d8a;
+}
+.sixth-section{
+    background-color: #ECE8E7;
+    padding: 50px 0px;
+}
+.board-wrapper{
+    background-color:#1f847d7c;
+    background-image: url(/product_images/board\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.stats{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.inner-stats{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+.inner-stats h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    color:#ECE8E7;
+}
+.inner-stats article{
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 100;
+    color:#ECE8E7;
+}
