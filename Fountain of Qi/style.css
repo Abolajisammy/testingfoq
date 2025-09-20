@@ -80,15 +80,21 @@ h1, h2, h3, h4, h5, h6{
     width: 35%;
     display: flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .right-nav a{
     text-decoration: none;
     transition: all ease-in-out 0.5s;
+    color: #ECE8E7;
+    font-size: 20px;
+    font-family: degular;
+    border-bottom: solid 2px #ece8e700;
+    padding: 10px 0px;
 }
 .right-nav a:hover{
     transition: all ease-in-out 0.5s;
+    border-bottom: solid 2px #ece8e7;
 }
 .offering{
     width: 35%;
@@ -132,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    padding: 10vh 0vh;
+    padding: 10vh 0px;
     background-color: rgb(31, 132, 126);
 }
 .second-section h3{
@@ -143,6 +149,57 @@ h1, h2, h3, h4, h5, h6{
     margin: 50px 0px;
     width: 60%;
     text-align: center;
+}
+.offering-wrapper-beta{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 50px 0px;
+
+}
+.offering-wrapper-beta a{
+    text-decoration: none;
+}
+.offer-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 120px;
+    width: fit-content;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 160px;
+}
+.meditation-beta{
+    background: url(/product_icons/new-med.png);
+}
+.qijong-beta{
+    background: url(/product_icons/qijong.jpg);
+}
+.breathwork-beta{
+    background: url(/product_icons/breathwork.jpg);
+}
+.retreat-beta{
+    background: url(/product_icons/new-reteat.png);
+}
+
+.offer-title{
+    font-size: 18px;
+    line-height: 35px;
+    color: #1F847E;
+    background-color: #ffffffcb;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    border: solid 1px;
 }
 .offerings-wrapper{
     display: flex;
@@ -669,7 +726,7 @@ footer{
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     
 
 
@@ -715,7 +772,7 @@ header nav img{
 .sidebar{
     display: flex;
     flex-flow: column;
-    justify-content: first-baseline;
+    justify-content: first baseline;
     align-items: center;
     position: fixed;
     top: 0;
@@ -770,7 +827,7 @@ header nav img{
     opacity: 0;
     transition: all ease-in-out 1s;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
 }
@@ -799,7 +856,7 @@ header nav img{
     color: #1F847E;
     font-weight: 100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 20px;
     border: solid 1px;
     padding: 5px 20px;
@@ -887,6 +944,34 @@ header nav img{
     margin: 50px 0px;
     width: 60%;
     text-align: center;
+}
+
+.offering-wrapper-beta{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 50px 0px;
+}
+.offering-wrapper-beta a{
+    text-decoration: none;
+}
+.offer-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 120px;
+    width: fit-content;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 160px;
+    margin: 20px 0px;
 }
 .offerings-wrapper{
     display: flex;
@@ -1397,6 +1482,3 @@ footer{
 
 
 }
-
-
-
