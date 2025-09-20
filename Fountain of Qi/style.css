@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .first-section{
     height: 80vh;
-    background-image: url(/product_images/intro_1.jpg);
+    background-image: url(/product_images/Foq-intro.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -140,13 +140,13 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    padding: 10vh 0px;
-    background-color: rgb(31, 132, 126);
+    padding: 50px 0px;
+    background-color: #ECE8E7;
 }
 .second-section h3{
     font-size: 30px;
     font-family: degular;
-    color: #ECE8E7;
+    color: #1F847E;
     line-height: 48px;
     margin: 50px 0px;
     width: 60%;
@@ -169,7 +169,8 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     flex-flow: column;
     justify-content: end;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #1F847E;
+;
     border-radius: 120px;
     width: fit-content;
     padding: 20px;
@@ -262,13 +263,6 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 .retreats{
     background-image: url(/product_images/retreat.jpg);
 }
-.inner-offerings-wrapper h6{
-    font-family: degular;
-    font-size: 20px;
-    color: rgb(236, 232, 231);
-    line-height: 28px;
-    margin: 20px 0px;
-}
 
 .more-offerings{
     text-decoration: none;
@@ -289,20 +283,21 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     align-items: center;
 }
 .more-offerings:hover{
-    background-color: #ECE8E7;
+    background-color: #1F847E;
+
     transition: all ease-in-out 1s;
     color: #1F847E;
 }
 .more-offerings article:hover{
-    background-color: #ECE8E7;
+    background-color: #1F847E;
     transition: all ease-in-out 1s;
-    color: #1F847E;
+    color: #ece8e7;
 }
 .more-offerings article{
     font-size: 20px;
     font-family: degular;
     text-decoration: none;
-    color: rgb(236, 232, 231);
+    color: #1F847E;
 }
 .more-offerings img{
     width: 20px;
@@ -310,7 +305,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .third-section{
     padding: 50px 20px;
-    background-color: #ECE8E7;
+    background-color: #1F847E;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -360,14 +355,14 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 .inner-left h6{
     font-size: 22px;
     line-height: 30px;
-    color: #1F847E;
+    color: #ECE8E7;
     text-align: right;
     width: 100%;
 }
 .inner-left p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
-    color: #1F847E;
+    color: #ECE8E7;
     text-align: right;
     width: 100%;
     font-family: degular;
@@ -381,13 +376,13 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .inner-right .image-wrapper{
     background-image: url(/product_images/med-stone.jpg);
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 35px;
 }
 
 .right-advantage{
@@ -401,14 +396,14 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 .right-advantage .inner-left h6{
     font-size: 22px;
     line-height: 30px;
-    color: #1F847E;
+    color: #ECE8E7;
     text-align: left;
     width: 100%;
 }
 .right-advantage .inner-left p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
-    color: #1F847E;
+    color: #ECE8E7;
     text-align: left;
     width: 100%;
     font-family: degular;
@@ -423,7 +418,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     font-size: 30px;
     line-height: 38px;
     margin: 20px 0px;
-    color: #1F847E;
+    color: #ECE8E7;
 }
 .foqi-wrapper{
     display: flex;
@@ -437,7 +432,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .foqi-wrapper p{
     width: 45%;
-    color: #1F847E;
+    color: #ECE8E7;
     font-family: degular;
     font-size: 20px;
     line-height: 28px;
@@ -445,7 +440,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .foqi-wrapper article{
     width: 50%;
-    color: #1F847E;
+    color: #ECE8E7;
     font-family: degular;
     font-size: 20px;
     line-height: 28px;
@@ -647,7 +642,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     line-height: 30px;
 }
 .gallery-wrapper{
-    
+
 }
 footer{
     display: flex;
@@ -850,7 +845,7 @@ header nav img{
     opacity: 0;
     transition: all ease-in-out 1s;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -885,58 +880,6 @@ header nav img{
     padding: 5px 20px;
     cursor: pointer;
 }
-.sidebar-offerings-wrapper{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-}
-.sidebar-offerings-wrapper a{
-    text-decoration: none;
-}
-.sidebar-offerings-wrapper .inner-offerings-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    margin: 0px 0px;
-    width: 90%;
-}
-.sidebar-offerings-wrapper .offerings-image{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    transition: all ease-in-out 0.5s;
-    margin: 10px 30px;
-
-}
-.sidebar-offerings-wrapper .offerings-image:hover{
-    height: 180px;
-    width: 180px;
-    border-radius: 90px;
-    transition: all ease-in-out 0.5s;
-}
-
-#offering-text{
-    width: 80%;
-    text-align: center;
-    font-size: 16px;
-    line-height: 25px;
-    color: #ece8e7a2;
-}
-
-
-
 
 .desktop-header{
     display: none;
@@ -944,7 +887,6 @@ header nav img{
 
 .first-section{
     height: 80vh;
-    background-image: url(/product_images/intro_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -957,12 +899,10 @@ header nav img{
     align-items: center;
     height: fit-content;
     padding: 5vh 20px;
-    background-color: rgb(31, 132, 126);
 }
 .second-section h3{
     font-size: 25px;
     font-family: degular;
-    color: #ECE8E7;
     line-height: 48px;
     margin: 50px 0px;
     width: 60%;
@@ -987,7 +927,6 @@ header nav img{
     flex-flow: column;
     justify-content: end;
     align-items: center;
-    background-color: #ffffff;
     border-radius: 120px;
     width: fit-content;
     padding: 20px;
@@ -1043,26 +982,6 @@ header nav img{
     font-size: 18px;
     line-height: 25px;
 }
-.meditation{
-    background-image: url(/product_images/meditation.jpeg);
-    background-position: bottom;
-}
-.qijong{
-    background-image: url(/product_images/qijong.JPG);
-}
-.breathwork{
-    background-image: url(/product_images/qijong_2.jpg);
-}
-.retreats{
-    background-image: url(/product_images/retreat.jpg);
-}
-.inner-offerings-wrapper h6{
-    font-family: degular;
-    font-size: 20px;
-    color: rgb(236, 232, 231);
-    line-height: 28px;
-    margin: 20px 0px;
-}
 
 .more-offerings{
     text-decoration: none;
@@ -1083,20 +1002,15 @@ header nav img{
     align-items: center;
 }
 .more-offerings:hover{
-    background-color: #ECE8E7;
     transition: all ease-in-out 1s;
-    color: #1F847E;
 }
 .more-offerings article:hover{
-    background-color: #ECE8E7;
     transition: all ease-in-out 1s;
-    color: #1F847E;
 }
 .more-offerings article{
     font-size: 20px;
     font-family: degular;
     text-decoration: none;
-    color: rgb(236, 232, 231);
 }
 .more-offerings img{
     width: 20px;
@@ -1104,7 +1018,6 @@ header nav img{
 }
 .third-section{
     padding: 50px 20px;
-    background-color: #ECE8E7;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -1150,14 +1063,12 @@ header nav img{
 .inner-left h6{
     font-size: 25px;
     line-height: 35px;
-    color: #1F847E;
     text-align: center;
     width: 100%;
 }
 .inner-left p{
     font-size: 18px;
     line-height: 26px;
-    color: #1F847E;
     text-align: center;
     width: 100%;
     font-family: degular;
@@ -1188,14 +1099,12 @@ header nav img{
 .right-advantage .inner-left h6{
     font-size: 25px;
     line-height: 35px;
-    color: #1F847E;
     text-align: center;
     width: 100%;
 }
 .right-advantage .inner-left p{
     font-size: 18px;
     line-height: 26px;
-    color: #1F847E;
     text-align: center;
     width: 100%;
     font-family: degular;
@@ -1210,7 +1119,6 @@ header nav img{
     font-size: 30px;
     line-height: 38px;
     margin: 20px 0px;
-    color: #1F847E;
     text-align: center;
 }
 .foqi-wrapper{
@@ -1225,7 +1133,6 @@ header nav img{
 }
 .foqi-wrapper p{
     width: 100%;
-    color: #1F847E;
     font-family: degular;
     font-size: 18px;
     line-height: 28px;
@@ -1233,7 +1140,6 @@ header nav img{
 }
 .foqi-wrapper article{
     width: 100%;
-    color: #1F847E;
     font-family: degular;
     font-size: 18px;
     line-height: 28px;
@@ -1348,9 +1254,7 @@ header nav img{
     border-radius: 50px;
     margin-right: 0px;
 }
-.person{
-    background-image: url(/product_images/person.png);
-}
+
 .name{
     display: flex;
     flex-flow: column;
