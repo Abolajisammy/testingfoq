@@ -1,0 +1,319 @@
+    /*
+    background-color: rgb(236, 232, 231);
+    background-color: rgb(31, 132, 126);
+    background-color:rgb(115, 73, 130);
+    */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, article,li, a{
+    font-family: degular;
+    text-decoration: none;
+}
+@font-face {
+    font-family: degular;
+    src: url(/fonts/fonnts.com-DegularDemo-Regular.otf)
+}
+    ;
+@font-face {
+    font-family: europa;
+    src: url(/fonts/EuropaNuovaRegular.ttf)
+}
+
+.offerings-intro-image{
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;  
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.offerings-intro-image h1{
+    color: #ece8e7;
+}
+.list-of-offers{
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece8e7;
+}
+.total-offers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px 0px 50px 0px;
+}
+.total-offers a{
+    width: 30%;
+    height: 25vh;
+    background-color: rgb(31, 132, 126);
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#schedule{
+    color:#734982;
+    margin: 20px;
+    border: solid 2px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+}
+#schedule:hover{
+    background-color:#734982;
+    color: #ece8e7;
+    margin: 20px;
+    border: solid 2px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.qigong-intro{
+ background-image: url("https://www.dropbox.com/scl/fi/2ht9sve6s9zfc1z0v1trt/qijong.JPG?rlkey=3bimvw5kaf5vt2ba7ofatkawb&st=sh0451bu&raw=1");
+ background-repeat: no-repeat;
+ background-position: 0px -250px;
+}
+.qigong-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    color: #734982;
+}
+.qigong-wrapper h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 40px 0px;
+}
+.qigong-details{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-qigong-details{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.inner-qigong-details h4{
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.inner-qigong-details p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.inner-qigong-details ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 0px 0px 0px 30px;
+}
+.inner-qigong-details ul li{
+    font-size: 20px;
+    line-height: 30px;
+    list-style-type: square;
+}
+.inner-qigong-details h6{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.inner-qigong-details article{
+    font-size: 20px;
+    line-height: 30px;
+}
+.inner-qigong-details a{
+    background-color: #734982;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    transition: ease-in-out 0.5s;
+}
+.inner-qigong-details a:hover{
+    background-color: #ece8e7;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    color: #734982;
+    transition: ease-in-out 0.5s;
+}
+.qigong-details img{
+    width: 40%;
+}
+.mobile-qijong-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+.offerings-intro-image{
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+    height: 80vh;
+}
+.offerings-intro-image h1{
+    color: #ece8e7;
+}
+.list-of-offers{
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece8e7;
+}
+.total-offers{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px 0px 50px 0px;
+}
+.total-offers a{
+    width: 100%;
+    border-radius: 8px;
+    height: 30vh;
+    margin: 20px 0px;
+}
+.total-offers a h3{
+    font-size: 20px;
+}
+
+.list-of-offers h4{
+    color: #1f847e;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    width: 80%;
+}
+#schedule{
+    font-size: 18px;
+}
+.qigong-intro{
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.qigong-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    color: #734982;
+}
+.qigong-wrapper h3{
+    font-size: 25px;
+    line-height: 38px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.qigong-details{
+    width: calc(100% - 20px);
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-qigong-details{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.inner-qigong-details h4{
+    font-size: 25px;
+    line-height: 38px;
+    margin: 20px 0px;
+}
+.inner-qigong-details p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.inner-qigong-details ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 0px 0px 0px 30px;
+}
+.inner-qigong-details ul li{
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: square;
+}
+.inner-qigong-details h6{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.inner-qigong-details article{
+    font-size: 18px;
+    line-height: 30px;
+}
+.inner-qigong-details a{
+    background-color: #734982;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    transition: ease-in-out 0.5s;
+    font-size: 18px;
+}
+.inner-qigong-details a:hover{
+    background-color: #ece8e7;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    color: #734982;
+    transition: ease-in-out 0.5s;
+}
+.qigong-details img{
+    width: 50%;
+}
+.mobile-qijong-icon{
+    display: block;
+}
+}
