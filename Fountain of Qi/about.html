@@ -1,158 +1,85 @@
-    /*
-    background-color: rgb(236, 232, 231);
-    background-color: rgb(31, 132, 126);
-    background-color:rgb(115, 73, 130);
-    */
-*{
-    margin: 0;
-    padding: 0;
-}
-.offerings-intro-image{
-    background-image: url(/product_images/board\ \(2\).jpg);
-    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-}
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fountain of Qi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="offering.css">
+    <link rel="shortcut icon" href="/icons/fountain_of_qi.png" type="image/x-icon">
+</head>
+<body>
+    <header class="mobile-header">
+        <nav>
+            <h2>Fountain of Qi Wellness</h2>
+            <div class="first-wrapper">
+            <h1 onclick="slideProfileBar()" class="hamburger">=</h1>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar">
+                <nav class="side-bar-nav">
+                    <h2>Fountain of Qi Wellness</h2>
+                    <div class="first-wrapper">
+                    <h1 onclick="slideProfileBar()" class="hamburger">Close</h1>
+                    </div>
+                </nav>
+                <div class="header-company-name-sidebar">
+                        <img class="close-button" src="/Icons/close.png" alt="" onclick="slideProfileBar()">
+                </div>
+            <ul>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/about.html"><li>About</li></a>
+                <a href="/offerings.html"><li>Offerings</li></a>
+            </ul>
+            <h1 onclick="slideProfileBar()" class="hamburger-side-bar">Close</h1>
 
-.offerings-intro-image h1{
-    color: #ece8e7;
-}
-.list-of-offers{
-    padding: 50px 0px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ece8e7;
-}
-.total-offers{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0px;
-    margin: 0px 0px 50px 0px;
-}
-.total-offers a{
-    width: 30%;
-    height: 25vh;
-    background-color: rgb(31, 132, 126);
-    margin-top: 20px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
-}
-.total-offers a h3{
-    font-size: 22px;
-}
-#qijong-wrapper{
-    background-image: url(/product_images/qijong.JPG);
-    background-position: center;
-}
-#massage-wrapper{
-    background-image: url(/product_images/massage.jpg);
-    background-position: center;
-}
-#classes-wrapper{
-    background-image: url(/product_images/classes.png);
-    background-position: bottom;
-}
-#retreats-wrapper{
-    background-image: url(/product_images/sessons.jpg);
-    background-position: center;
-}
-#meditation-wrapper{
-    background-image: url(/product_images/energy_sessions.jpg);
-    background-position: center;
-}
-#grooves-wrapper{
-    background-image: url(/product_images/medidation-2.jpg);
-    background-position: center;
-}
-.list-of-offers h4{
-    color: #1f847e;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    width: 80%;
+    </div>
+    <header class="desktop-header">
+        <nav>
+            <div class="left-nav">
+                <ul>
+                    <a href="/index.html">Home</a>
+                    <a href="/about.html">About</a>
+                    <a href="/offerings.html">Offerings</a>
+                </ul>
+            </div>
+            <div class="middle-nav">
+                <h3>Fountain of Qi Wellness</h3>
+            </div>
+            <div class="right-nav">
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section class="first-section about-intro-image">
+        <h1>Our Founder</h1>
+    </section>
     
-}
-#schedule{
-    color:#734982;
-    margin: 20px;
-    border: solid 2px;
-    padding: 10px 20px;
-    transition: all ease-in-out 0.5s;
-}
-#schedule:hover{
-    background-color:#734982;
-    color: #ece8e7;
-    margin: 20px;
-    border: solid 2px;
-    padding: 10px 20px;
-    transition: all ease-in-out 0.5s;
 
-}
-.about-intro-image{
- background-image: url("https://drive.google.com/uc?export=view&id=1_IP_e1rxAihLC_3HOOjA0YIjOyFf8uXm");
-  background-size: cover;
-  background-position: center;  
-}
-
-
-@media screen and (max-width: 1000px) {
-.offerings-intro-image{
-    background-image: url(/product_images/board\ \(2\).jpg);
-    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
-    height: 80vh;
-}
-.offerings-intro-image h1{
-    color: #ece8e7;
-}
-.list-of-offers{
-    padding: 50px 0px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ece8e7;
-}
-.total-offers{
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
-    margin: 0px 0px 50px 0px;
-}
-.total-offers a{
-    width: 100%;
-    border-radius: 8px;
-    height: 30vh;
-    margin: 20px 0px;
-}
-.total-offers a h3{
-    font-size: 20px;
-}
-
-.list-of-offers h4{
-    color: #1f847e;
-    font-size: 25px;
-    line-height: 35px;
-    text-align: center;
-    width: 80%;
-}
-#schedule{
-    font-size: 18px;
-}
-
-}
+    
+    
+    
+    <footer>
+        <div class="footer-wrapper">
+            <div class="logo">
+                <img src="/product_icons/foq-white-logo.png" alt="">
+            </div>
+            <div class="social-link">
+                <h5>Send us an Email</h5>
+                <a href="mailto:nicole@fountainofqi.com">nicole@fountainofqi.com</a>
+                <a href="https://www.instagram.com/fountainofqi/">Connect on Instagram</a>
+            </div>
+            <div class="join-email-list">
+                <input type="email" name="Email Address" id="email" required placeholder="Enter your Email">
+                <input type="submit" id="submit" value="JOIN OUR EMAIL LIST">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h6>© 2025 Fountain of Qi  | <a href="https://www.fountainofqi.com/terms-conditions"> Legal policy</a></h6>
+            <h6>Designed by <a href="http://samuelkorode.vercel.app">Sam A.</a></h6>
+        </div>
+    </footer>
+</body>
+<script src="/script.js"></script>
+</html>
