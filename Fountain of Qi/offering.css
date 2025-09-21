@@ -71,11 +71,11 @@
     background-position: center;
 }
 #meditation-wrapper{
-    background-image: url(/product_images/medidation-2.jpg);
+    background-image: url(/product_images/energy_sessions.jpg);
     background-position: center;
 }
 #grooves-wrapper{
-    background-image: url(/product_images/energy_sessions.jpg);
+    background-image: url(/product_images/medidation-2.jpg);
     background-position: center;
 }
 .list-of-offers h4{
@@ -102,6 +102,13 @@
     transition: all ease-in-out 0.5s;
 
 }
+.about-intro-image{
+ background-image: url("https://drive.google.com/uc?export=view&id=1_IP_e1rxAihLC_3HOOjA0YIjOyFf8uXm");
+  background-size: cover;
+  background-position: center;  
+}
+
+
 @media screen and (max-width: 1000px) {
 .offerings-intro-image{
     background-image: url(/product_images/board\ \(2\).jpg);
