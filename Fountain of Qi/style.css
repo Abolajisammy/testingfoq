@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     transition: all ease-in-out 0.5s;
 }
 .home-intro{
-    height: 80vh;
+    height: 85vh;
     background-image: url(https://www.dropbox.com/scl/fi/4cdiynsust9mi0630dufs/Nicole-Fountain-of-intro.jpg?rlkey=48c7dsa3y7yz7t35t1nxj02pi&st=tbaywaxs&raw=1);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    padding: 50px 0px;
+    padding-bottom: 50px;
     background-color: #1F847E;
 }
 .second-section h3{
@@ -959,36 +959,18 @@ header nav img{
     background-position: center;
     background-position: center;
 }
+.home-intro{
+    height: 88vh;
+}
 .second-section{
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     height: fit-content;
-    padding: 50px 0px 50px 0px;
-}
-.second-section h3{
-    font-size: 25px;
-    font-family: degular;
-    line-height: 48px;
-    margin: 2px 0px 20px 0px;
-    width: 60%;
-    text-align: center;
+    padding: 0px 0px 30px 0px;
 }
 
-.offering-wrapper-beta{
-    display: none;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    padding: 50px 0px;
-}
-.offering-wrapper-beta a{
-
-
-    text-decoration: none;
-}
 .offer-wrapper{
     display: flex;
     flex-flow: column;
