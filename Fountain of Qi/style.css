@@ -524,30 +524,30 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 }
 .top-founder h2{
     font-size: 30px;
-    color: #1F847E;
+    color: #ECE8E7;
     line-height: 38px;
     margin-bottom: 10px;
 }
 .top-founder h3{
     font-size: 25px;
-    color: #1F847E;
+    color: #ECE8E7;
     line-height: 33px;
     margin-bottom: 5px;
 }
 .top-founder h4{
     font-size: 20px;
-    color: #1f847db6;
+    color: #ECE8E7;
     line-height: 28px;
     margin-bottom: 15px;
 }
 .top-founder p{
     font-size: 20px;
-    color: #000000b6;
+    color: #ECE8E7;
     line-height: 28px;
     margin-bottom: 25px;
 }
 .left-founder a{
-    color: #1F847E;
+    color: #ECE8E7;
     font-size: 20px;
     line-height: 33px;
     margin-bottom: 5px;
@@ -1243,33 +1243,32 @@ header nav img{
     align-items: start;
 }
 .top-founder h2{
-    font-size: 30px;
-    color: #1F847E;
+    color: #ECE8E7;
     line-height: 38px;
     margin-bottom: 10px;
 }
 .top-founder h3{
     font-size: 25px;
-    color: #1F847E;
+    color: #ECE8E7;
     line-height: 33px;
     margin-bottom: 5px;
 }
 .top-founder h4{
     font-size: 20px;
-    color: #1f847db6;
+    color: #ECE8E7;
     line-height: 28px;
     margin-bottom: 15px;
 }
 .top-founder p{
     font-size: 20px;
-    color: #000000b6;
+    color: #ECE8E7;
     line-height: 28px;
     margin-bottom: 25px;
 }
 .left-founder a{
     width: 90%;
     text-align: center;
-    color: #1F847E;
+    color: #dbdbdb;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 35px;
