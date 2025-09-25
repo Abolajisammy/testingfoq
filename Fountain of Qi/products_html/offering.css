@@ -262,6 +262,200 @@ h1, h2, h3, h4, h5, h6, p, article,li, a{
     background-image: url(https://www.dropbox.com/scl/fi/6r6hh2kq57f1hkub73yfe/lotus-qijong.jpg?rlkey=b4zzv6668pe3mixeh5up8jd2f&st=dc9j9cjd&raw=1);
 }
 
+/*
+BREATHWORK
+*/
+.breathwork-intro-image{
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://www.dropbox.com/scl/fi/767z8zriiennxgx7f2k1t/Breathwork-1.jpg?rlkey=aqh6h0465v38nt3djbs8uq0zp&st=j5twej0v&raw=1);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 200px 0px 0px 0px;
+}
+.breathwork-intro-image h1{
+    font-size: 50px;
+    color: #ECE8E7;
+    line-height: 60px;
+}
+.breathwork-intro-image h6{
+    font-size: 25px;
+    color: #ECE8E7;
+    line-height: 35px;
+    width: 40%;
+    text-align: center;
+    font-weight: 100;
+}
+.expectations{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 50px 0px;
+    margin: 20px 0px;
+}
+.expectations article{
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 200px;
+    color: #d9f8f6;
+    transition: all ease-in-out 0.5s;
+     background-image: url(https://www.dropbox.com/scl/fi/woz26alc3nr0qf103gtlx/board-3.jpg?rlkey=bml51bo7agi6d9s95q9jzh07n&st=w29vkxcc&raw=1);
+     box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.expectations article:hover{
+    transition: all ease-in-out 0.5s;
+    background-position: top;
+    font-size: 20px;
+}
+.contact-us{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ECE8E7;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+}
+.contact-us:hover{
+    padding: 10px 20px;
+    background-color: #1f847e;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+.what-is-breathwork{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 100px;
+    background-color: #ECE8E7;
+}
+
+.video-background {
+      width: 35%;
+      height: 80%;
+      object-fit: cover; 
+}
+.left-content, .right-content{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.what-is-breathwork h1{
+    color: #1F847E;
+    line-height: 55px;
+}
+.what-is-breathwork h2{
+    color: #1f847db3;
+    line-height: 55px;
+    font-size: 25px;
+}
+.what-is-breathwork p{
+    color: #1F847E;
+    font-size: 22px;
+    line-height: 30px;
+}
+.what-is-breathwork h6{
+    font-size: 25px;
+    line-height: 55px;
+    width: 1005;
+    text-align: center;
+    color: #ECE8E7;
+    background-color: #1f847e;
+    margin: 30px 0px;
+}
+.what-is-breathwork ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.what-is-breathwork ul li{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-content h3{
+    color: #1F847E;
+    line-height: 33px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.right-content article{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-content ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.right-content ul li{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-contact-us{
+    color: #1F847E;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.right-contact-us:hover{
+    color: #ECE8E7;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    transition: all ease-in-out 0.3s;
+}
+.photos-breathwork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 50px;
+}
+.photos-breathwork .photos{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    margin: 20px 0px;
+}
+.photos-breathwork .photos-1{
+    background-image: url(https://www.dropbox.com/scl/fi/2xbfaku7rthef4bzyomc1/Breathwork-2.jpg?rlkey=uu3erhtddowvxrvvkft94v2nh&st=ye6dlfqb&raw=1);
+    background-position: bottom;
+}
+.photos-breathwork .photos-2{
+    background-image: url(https://www.dropbox.com/scl/fi/2d25q1ed5dhcr4bply3zu/energy_sessions.jpg?rlkey=llzpervjjyz3gs3ysl0h7mcrl&st=nnkd14uf&raw=1);
+}
+.photos-breathwork .photos-3{
+    background-image: url(https://www.dropbox.com/scl/fi/6r6hh2kq57f1hkub73yfe/lotus-qijong.jpg?rlkey=b4zzv6668pe3mixeh5up8jd2f&st=dc9j9cjd&raw=1);
+}
+
 
 
 
@@ -424,7 +618,138 @@ h1, h2, h3, h4, h5, h6, p, article,li, a{
 .book-a-session a:hover{
     font-size: 20px;
 }
+/*
+BREATHWORK
+*/
 
+
+.breathwork-intro-image{
+    height: 80vh;
+    padding: 200px 0px 0px 0px;
+}
+.breathwork-intro-image h1{
+    font-size: 30px;
+    color: #ECE8E7;
+    line-height: 60px;
+}
+.breathwork-intro-image h6{
+    font-size: 20px;
+    color: #ECE8E7;
+    line-height: 35px;
+    width: 80%;
+}
+.expectations{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 50px 0px;
+    margin: 20px 0px;
+}
+.expectations article{
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 0px;
+    color: #d9f8f6;
+    margin: 20px 0px;
+}
+.expectations article:hover{
+    transition: all ease-in-out 0.5s;
+    background-position: top;
+    font-size: 20px;
+}
+.what-is-breathwork{
+    flex-flow: column;
+    padding: 50px;
+}
+
+.video-background {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover; 
+      margin: 20px 0px;
+}
+.left-content, .right-content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.what-is-breathwork h1{
+    color: #1F847E;
+    font-size: 25px;
+    line-height: 55px;
+}
+.what-is-breathwork h2{
+    color: #1f847db3;
+    line-height: 55px;
+    font-size: 20px;
+}
+.what-is-breathwork p{
+    color: #1F847E;
+    font-size: 18px;
+    line-height: 28px;
+}
+.what-is-breathwork h6{
+    font-size: 20px;
+    line-height: 55px;
+    width: 100%;
+    text-align: center;
+    color: #ECE8E7;
+    background-color: #1f847e;
+    margin: 20px 0px;
+}
+.what-is-breathwork ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.what-is-breathwork ul li{
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-content h3{
+    color: #1F847E;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.right-content article{
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-content ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.right-content ul li{
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-contact-us{
+    color: #1F847E;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
 
 
 
