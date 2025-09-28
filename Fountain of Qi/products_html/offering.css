@@ -1,0 +1,1594 @@
+    /*
+    background-color: rgb(236, 232, 231);
+    background-color: rgb(31, 132, 126);
+    background-color:rgb(115, 73, 130);
+    */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, article,li, a{
+    font-family: degular;
+    text-decoration: none;
+}
+@font-face {
+    font-family: degular;
+    src: url(/fonts/fonnts.com-DegularDemo-Regular.otf)
+}
+    ;
+@font-face {
+    font-family: europa;
+    src: url(/fonts/EuropaNuovaRegular.ttf)
+}
+
+.offerings-intro-image{
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    background-size: cover;
+    background-position: center;  
+    display: flex;
+    padding-top: 100px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerings-intro-image h1{
+    color: #ece8e7;
+}
+.list-of-offers{
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece8e7;
+}
+.total-offers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px 0px 50px 0px;
+}
+.total-offers a{
+    width: 30%;
+    height: 25vh;
+    background-color: rgb(31, 132, 126);
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#schedule{
+    color:#734982;
+    margin: 20px;
+    border: solid 2px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+}
+#schedule:hover{
+    background-color:#734982;
+    color: #ece8e7;
+    margin: 20px;
+    border: solid 2px;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.qigong-intro{
+  background-image: url("https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=hnei9wed&raw=1");
+ background-repeat: no-repeat;
+ height: 82vh;
+}
+.qigong-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    color: #734982;
+}
+.qigong-wrapper h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 40px 0px;
+}
+.qigong-details{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-qigong-details{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.inner-qigong-details h4{
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.inner-qigong-details p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.inner-qigong-details ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 0px 0px 0px 30px;
+}
+.inner-qigong-details ul li{
+    font-size: 20px;
+    line-height: 30px;
+    list-style-type: square;
+}
+.inner-qigong-details h6{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.inner-qigong-details article{
+    font-size: 20px;
+    line-height: 30px;
+}
+.inner-qigong-details a{
+    background-color: #734982;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    transition: ease-in-out 0.5s;
+}
+.inner-qigong-details a:hover{
+    background-color: #ece8e7;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    color: #734982;
+    transition: ease-in-out 0.5s;
+}
+
+.qigong-video{
+    width: 40%;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: center;
+}
+.bg-video {
+      width: 90%;
+      height: 80%;
+      object-fit: cover;
+      z-index: -1;
+}
+
+.slide-show-wrapper-qigong{
+    background-color:#1F847E;
+    padding: 20px 0px 100px 0px;
+    width: 100%;
+    height: 0px;
+}
+   .slider {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      padding: 20px 0;
+    }
+
+    .slide-track {
+      display: inline-block;
+      animation: scroll 100s linear infinite;
+    }
+
+    .slide {
+      display: inline-block;
+      margin: 0 50px;
+      font-size: 25px;
+      font-family: degular;
+      color: #ECE8E7;
+    }
+    @keyframes scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+.book-a-session{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-a-session a{
+    color: #734982;
+    font-size: 30px;
+    border-bottom: solid 2px #734982;
+    padding: 10px 0px;
+    transition: all ease-in-out 0.5s;
+}
+.book-a-session a:hover{
+    color: #ECE8E7;
+    font-size: 30px;
+    border-bottom: solid 2px #ECE8E7;
+    padding: 20px 20px;
+    background-color: #734982;
+    transition: all ease-in-out 0.5s;
+}
+.photos-qigong{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+.photos-qigong .photos{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30%;
+    margin: 20px 0px;
+}
+.photos-qigong .photos-1{
+    background-image: url(https://www.dropbox.com/scl/fi/5cjrq75x5hrepoco40omx/qigong-alternate-1.JPG?rlkey=47uct354fmvshetj0t3ozscq9&st=6pdgztwt&raw=1);
+}
+.photos-qigong .photos-2{
+    background-image: url(https://www.dropbox.com/scl/fi/wh9r7l3tb8946g4iecu1a/qigong-alternate-2.JPG?rlkey=sd7oze562shlxkueekttiqkct&st=11q2v4dw&raw=1);
+}
+.photos-qigong .photos-3{
+    background-image: url(https://www.dropbox.com/scl/fi/n2dvql2upp944z7lvqleq/qigong-alternate-3.JPG?rlkey=msf1pu44l4k10f2q5mcpckt4m&st=58rkatbo&raw=1);
+}
+
+.photos-qigong .photos-5{
+    background-image: url(https://www.dropbox.com/scl/fi/2ht9sve6s9zfc1z0v1trt/qijong.JPG?rlkey=3bimvw5kaf5vt2ba7ofatkawb&st=ap04ibyl&raw=1);
+}
+
+.photos-qigong .photos-6{
+    background-image: url(https://www.dropbox.com/scl/fi/e5wcssgoitazl95nct6es/Aroundtheworldqigong.jpg?rlkey=5kjuk8aavqzlnrw02ufzn0xbf&st=6s6wp5uw&raw=1);
+}
+.photos-qigong .photos-4{
+    background-image: url(https://www.dropbox.com/scl/fi/hpvf8erwzas8cmu515d39/qijong_2.jpg?rlkey=eve144ls7skso8p7gflmlqf51&st=2lsrufyo&raw=1);
+}
+.photos-qigong .photos-7{
+    background-image: url();
+}
+.photos-qigong .photos-8{
+    background-image: url();
+}
+.photos-qigong .photos-9{
+    background-image: url();
+}
+
+
+
+
+
+
+
+/*
+BREATHWORK
+*/
+.breathwork-intro-image{
+    height: 70vh;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+}
+.breathwork-intro-image h1{
+    font-size: 50px;
+    color: #ECE8E7;
+    line-height: 60px;
+}
+.breathwork-intro-image h6{
+    font-size: 25px;
+    color: #ECE8E7;
+    line-height: 35px;
+    width: 40%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.contact-us{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ECE8E7;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 20px;
+}
+.contact-us:hover{
+    padding: 10px 20px;
+    background-color: #1f847e;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+.what-is-breathwork{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 100px;
+    background-color: #ECE8E7;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: left 3s ease-in-out;
+  overflow: hidden;
+
+  /* dark overlay for readability */
+  box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper.active {
+  left: 0;
+}
+
+/* First wrapper background */
+.wrapper.first {
+  background-image: url("https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=hnei9wed&raw=1");
+}
+
+/* Second wrapper background */
+.wrapper.second {
+  background-image: url("https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=hnei9wed&raw=1");
+}
+
+.wrapper section {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+.video-background {
+      width: 35%;
+      height: 80%;
+      object-fit: cover; 
+}
+.left-content, .right-content{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.left-content h6{
+    color: #1f847db3;
+    line-height: 30px;
+    font-size: 25px;
+    width: 100%;
+    padding: 20px 0px;
+}
+.what-is-breathwork h1{
+    color: #1F847E;
+    line-height: 55px;
+}
+.what-is-breathwork h2{
+    color: #1f847db3;
+    line-height: 55px;
+    font-size: 25px;
+}
+.what-is-breathwork p{
+    color: #1F847E;
+    font-size: 22px;
+    line-height: 30px;
+}
+.what-is-breathwork h6{
+    font-size: 20px;
+    line-height: 30px;
+    width: 1005;
+    text-align: center;
+    color: #ECE8E7;
+    background-color: #1f847e;
+    margin: 30px 0px;
+}
+.what-is-breathwork ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.what-is-breathwork ul li{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.left-content h3{
+    color: #1F847E;
+    line-height: 33px;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+
+.pricing-card h2 {
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 0px;
+}
+
+.pricing-card {
+  background: #ECE8E7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 40px 30px;
+  max-width: 100%;
+  margin: 20px 0px 40px 0px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 18px;
+  color: gray;
+}
+
+.details {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #333;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #1f847e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #16635d;
+}
+
+.right-content article{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.left-content ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.left-content ul li{
+    font-size: 22px;
+    line-height: 30px;
+    color: #1F847E;
+    list-style: square;
+    margin: 5px 0px;
+}
+.right-contact-us{
+    color: #1F847E;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    font-size: 25px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.right-contact-us:hover{
+    color: #ECE8E7;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    transition: all ease-in-out 0.3s;
+}
+.right-content h3{
+    color: #1F847E;
+    line-height: 33px;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.photos-breathwork{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+.photos-breathwork .photos{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 30%;
+    margin: 20px 0px;
+}
+.photos-breathwork .photos-1{
+    background-image: url(https://www.dropbox.com/scl/fi/767z8zriiennxgx7f2k1t/Breathwork-1.jpg?rlkey=aqh6h0465v38nt3djbs8uq0zp&st=s91x31q4&raw=1);
+    background-position: bottom;
+}
+.photos-breathwork .photos-2{
+    background-image: url(https://www.dropbox.com/scl/fi/2d25q1ed5dhcr4bply3zu/energy_sessions.jpg?rlkey=llzpervjjyz3gs3ysl0h7mcrl&st=nnkd14uf&raw=1);
+}
+.photos-breathwork .photos-3{
+    background-image: url(https://www.dropbox.com/scl/fi/6r6hh2kq57f1hkub73yfe/lotus-qijong.jpg?rlkey=b4zzv6668pe3mixeh5up8jd2f&st=dc9j9cjd&raw=1);
+}
+.photos-breathwork .photos-4{
+    background-image: url(https://www.dropbox.com/scl/fi/3i3x10abxj1bngdgscq9a/meditation-photos-4.jpg?rlkey=jelclmnfbj436xzmrlfrlfds5&st=2kemkud6&raw=1);
+}
+.photos-breathwork .photos-5{
+    background-image: url(https://www.dropbox.com/scl/fi/by1aw0h7figq4tixvfz4f/meditation-photos-3.jpg?rlkey=lnor5pn1gw98o5n3xwxdtzj55&st=dddxqikq&raw=1);
+}
+.photos-breathwork .photos-6{
+    background-image: url(https://www.dropbox.com/scl/fi/zqvj65u4d2fgklbv43aap/meditation-photos-2.jpg?rlkey=e7dhyhktpwjqmxc9mw8bbn7ac&st=ksnaq549&raw=1);
+}
+.photos-breathwork .photos-7{
+    background-image: url(https://www.dropbox.com/scl/fi/wkg0muwclshja7qnlgdxr/meditation-photos-1.jpg?rlkey=9z04e0aw5zba7umo4o3l7qd9r&st=s2ddz6pz&raw=1);
+    background-position: bottom;
+}
+/*
+RETREATS
+*/
+.retreats-intro-image{
+    height: 78vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+    background-image: url(https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=steo8qi7&raw=1);
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+}
+.retreats-intro-image h1{
+    color: #ECE8E7;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.retreats-intro-image h6{
+    color: #ECE8E7;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.retreats-intro-image a{
+    background-color: rgba(102, 1, 1, 0.777);
+    padding: 5px 20px;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.retreats-intro-image a:hover{
+    background-color: rgba(228, 228, 228, 0.573);
+    transition: all ease-in-out 0.5s;  
+    color: rgba(102, 1, 1, 0.777);
+}
+.captivating-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #ECE8E7;
+}
+.captivating-section h1{
+    color: #734982;
+    font-size: 30px;
+    line-height: 40px;
+}
+.captivating-section h3{
+    color: #734982;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.experience-wrapper-retreats{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: start;
+    width: 90%;
+}
+.exp-wrapper-link{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: center;
+    width: 20%;
+    margin: 40px 0px;
+    padding: 0px 10px;
+    
+}
+.photo-retreat{
+    height: 40vh;
+    width: 90%;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #734982;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#photo-breathwork-retreat{
+    background-image: url(https://www.dropbox.com/scl/fi/e5wcssgoitazl95nct6es/Aroundtheworldqigong.jpg?rlkey=5kjuk8aavqzlnrw02ufzn0xbf&st=sl3mjlyo&raw=1);
+}
+#photo-qigong-retreat{
+    background-image: url(https://www.dropbox.com/scl/fi/2ht9sve6s9zfc1z0v1trt/qijong.JPG?rlkey=3bimvw5kaf5vt2ba7ofatkawb&st=lss8he45&raw=1);
+}
+#photo-massage-retreat{
+    background-image: url(https://www.dropbox.com/scl/fi/nqtdd8uitib41ue0p0z77/massage.jpg?rlkey=8182ldo38tr7qaiee0pw9024x&st=gbfxukv4&raw=1);
+}
+#photo-meditation-retreat{
+    background-image: url(https://www.dropbox.com/scl/fi/n2dvql2upp944z7lvqleq/qigong-alternate-3.JPG?rlkey=msf1pu44l4k10f2q5mcpckt4m&st=njjh0ei1&raw=1);
+}
+
+.exp-wrapper-link h6{
+    color: #734982;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.exp-wrapper-link article{
+    color: #734982;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+#start-journey{
+    color: #734982;
+    padding: 10px 0px;
+    border: solid 2px #734982;
+    width: 25%;
+    text-align: center;
+    margin: 10px 0px;
+    transition: all ease-in-out 0.5s;
+}
+#start-journey:hover{
+    background-color: #734982;
+    color: #ECE8E7;
+    transition: all ease-in-out 0.5s;
+
+}
+.previous-retreats{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #1F847E;
+    padding: 50px 100px;
+}
+.retreats-past{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.photo-retreat-example{
+    width: 45%;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: #ece8e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo-retreat-example-desktop{
+    width: 45%;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: #ece8e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.retreat-description{
+    width: 45%;
+}
+.retreat-description h1{
+    color: #ece8e7;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.retreat-description p{
+    color: #ece8e7;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+#explore-link{
+    background-color: #ece8e7;
+    color: #16635d;
+    text-align: center;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+
+}
+#explore-link:hover{
+    color: #ece8e7;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all ease-in-out 0.5s;
+    border-bottom: solid 2px;
+}
+.colorado{
+    background-image: url(https://www.dropbox.com/scl/fi/xa3znxoa50fh5mykulobj/Retreats-media-4.JPG?rlkey=bswycerwzl2db65z71m4o4fi7&st=p81mq8o4&raw=1);
+}
+.other1{
+    background-image: url(https://www.dropbox.com/scl/fi/emoidckcbxk2vqu7159l0/Retreats-media-3.JPG?rlkey=0egnh1hyb5y8wvy3fcfqobasa&st=den5ct0s&raw=1);
+}
+.other2{
+    background-image: url(https://www.dropbox.com/scl/fi/cehsq9ptb00rgm8452de7/Retreats-media-2.JPG?rlkey=sn5m21u5659k9a4r64c22tp0p&st=c3jpag5v&raw=1);
+}
+
+.other3{
+    background-image: url(https://www.dropbox.com/scl/fi/rwg5ihv9qcqh0pwz9bt9f/Retreats-media-1.JPG?rlkey=ap2al5b4qcrdyl5wq3j5ruq8c&st=mpdc1ipd&raw=1);
+}
+
+.other4{
+    background-image: url(https://www.dropbox.com/scl/fi/0nu2iuvh6fv5l972jej4l/retreat.jpg?rlkey=g1xqrhirh5lekga3814w2y3v1&st=bw02usj9&raw=1);
+}
+.upcoming-retreat{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    color: #ECE8E7;
+}
+
+.upcoming-retreat h1{
+    color: #1F847E;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+}
+.upcoming-retreat h3{
+    color: #1F847E;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.upcoming-retreat p{ 
+    color: #1F847E;
+    font-size: 22px;
+    line-height: 30px;
+}
+.upcoming-retreat ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+.upcoming-retreat ul li{
+    color: #1F847E;
+    font-size: 22px;
+    line-height: 30px;
+    list-style: square;
+}
+.retreats-list-of-offers{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+.offer{
+    width: 25%;
+    height: fit-content;
+    background-color: #734982;
+    padding: 20px 20px 20px 30px;
+    margin: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 8px;
+}
+.offer h2{
+    color: #ECE8E7;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.offer h6{
+    color: #ece8e7b7;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.offer li{
+    color: #ECE8E7;
+    font-size: 20px;
+    line-height: 25px;
+    list-style: square;
+    margin-bottom: 10px;
+
+}
+.offer p{
+    color: #ECE8E7;
+    font-size: 20px;
+    line-height: 25px;
+    list-style: square;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.price h5{
+    color: #ECE8E7;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: degular;
+}
+.price h6{
+    color: #ECE8E7;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+.new-retreat article{
+    color: #16635d;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.new-retreat a{
+    color: #1F847E;
+    border-bottom: 2px solid #1F847E;
+    transition:  all ease-in-out 0.3s;
+
+}
+.new-retreat a:hover{
+    background-color: #1F847E;
+    color: #ECE8E7;
+    padding: 10px 20px;
+    transition:  all ease-in-out 0.3s;
+}
+.photos-retreat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+.photos-retreat .photos{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30%;
+    margin: 20px 0px;
+}
+
+.photo-retreat-example-mobile{
+    display: none;
+}
+.photos-retreat .photos-1{
+    background-image: url(https://www.dropbox.com/scl/fi/ojlxa2dcra1z042xv6yf1/IMG_9278.JPG?rlkey=wx73f05rfv9ptnioi0eb1s69d&st=qu19ljvy&raw=1);
+}
+.photos-retreat .photos-2{
+    background-image: url(https://www.dropbox.com/scl/fi/5ekyb7ake25lpuzo6ui00/sessons.jpg?rlkey=nrlfdv940bbs84dus6yvdxwhk&st=7bpb6l9b&raw=1);
+}
+.photos-retreat .photos-3{
+    background-image: url(https://www.dropbox.com/scl/fi/xa3znxoa50fh5mykulobj/Retreats-media-4.JPG?rlkey=bswycerwzl2db65z71m4o4fi7&st=rcc42s5w&raw=1);
+}
+.photos-retreat .photos-4{
+    background-image: url(https://www.dropbox.com/scl/fi/emoidckcbxk2vqu7159l0/Retreats-media-3.JPG?rlkey=0egnh1hyb5y8wvy3fcfqobasa&st=7wi4cn4j&raw=1);
+}
+.photos-retreat .photos-5{
+    background-image: url(https://www.dropbox.com/scl/fi/cehsq9ptb00rgm8452de7/Retreats-media-2.JPG?rlkey=sn5m21u5659k9a4r64c22tp0p&st=oxwt5am3&raw=1);
+}
+.photos-retreat .photos-6{
+    background-image: url(https://www.dropbox.com/scl/fi/swm2ksqz55ip93b71nduk/Retreats-media-2.HEIC?rlkey=54q2ka3rn31o1vdfh1brwggca&st=mgxt8ril&raw=1);
+}
+.photos-retreat .photos-7{
+    background-image: url(https://www.dropbox.com/scl/fi/rwg5ihv9qcqh0pwz9bt9f/Retreats-media-1.JPG?rlkey=ap2al5b4qcrdyl5wq3j5ruq8c&st=h4fd32lk&raw=1);
+}
+.photos-retreat .photos-8{
+    background-image: url(https://www.dropbox.com/scl/fi/gm5bzk9xro0zibrv08056/Nicole-Fountain-of-32-drop.JPG?rlkey=cqz4fp7hcvgh1r18elcoknajj&st=mecx7eph&raw=1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+.slide-show-wrapper{
+    background-color:#1F847E;
+    padding: 20px 0px;
+    width: 100%;
+}
+    .slide {
+      display: inline-block;
+      margin: 0 30px;
+      font-size: 20px;
+    }
+
+.offerings-intro-image{
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+    height: 80vh;
+}
+.offerings-intro-image h1{
+    color: #ece8e7;
+}
+.list-of-offers{
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece8e7;
+}
+.total-offers{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px 0px 50px 0px;
+}
+.total-offers a{
+    width: 100%;
+    border-radius: 8px;
+    height: 30vh;
+    margin: 20px 0px;
+}
+.total-offers a h3{
+    font-size: 20px;
+}
+
+.list-of-offers h4{
+    color: #1f847e;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    width: 80%;
+}
+#schedule{
+    font-size: 18px;
+}
+.qigong-intro{
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.qigong-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+    color: #734982;
+}
+.qigong-wrapper h3{
+    font-size: 25px;
+    line-height: 38px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.qigong-details{
+    width: calc(100% - 20px);
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-qigong-details{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.inner-qigong-details h4{
+    font-size: 25px;
+    line-height: 38px;
+    margin: 20px 0px;
+}
+.inner-qigong-details p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.inner-qigong-details ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 0px 0px 0px 30px;
+}
+.inner-qigong-details ul li{
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: square;
+}
+.inner-qigong-details h6{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.inner-qigong-details article{
+    font-size: 18px;
+    line-height: 30px;
+}
+.inner-qigong-details a{
+    background-color: #734982;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    transition: ease-in-out 0.5s;
+    font-size: 18px;
+}
+.inner-qigong-details a:hover{
+    background-color: #ece8e7;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    color: #734982;
+    transition: ease-in-out 0.5s;
+}
+.qigong-video{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: center;
+}
+.bg-video {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+      z-index: -1;
+}
+.book-a-session a{
+    font-size: 20px;
+}
+.book-a-session a:hover{
+    font-size: 20px;
+}
+/*
+BREATHWORK
+*/
+
+
+
+.what-is-breathwork{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #ECE8E7;
+}
+.breathwork-intro-image{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0;
+}
+.breathwork-intro-image h4{
+    width: 60%;
+    text-align: center;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: left 3s ease-in-out;
+  overflow: hidden;
+
+  /* dark overlay for readability */
+  box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.5);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper.active {
+  left: 0;
+}
+
+/* First wrapper background */
+.wrapper.first {
+  background-image: url("https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=hnei9wed&raw=1");
+}
+
+/* Second wrapper background */
+.wrapper.second {
+  background-image: url("https://www.dropbox.com/scl/fi/27tg5yu2p89vazzd8wxf2/IMG_9172.JPG?rlkey=n1p2detqixxxi064ksyzp6xc2&st=hnei9wed&raw=1");
+}
+
+.wrapper section {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+.video-background {
+      width: 100%;
+      height: 80%;
+      margin: 40px 0px;
+      object-fit: cover; 
+}
+.left-content, .right-content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-content h6{
+    line-height: 25px;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.what-is-breathwork h1{
+    line-height: 35px;
+    text-align: center;
+}
+.what-is-breathwork h2{
+    color: #1f847db3;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.what-is-breathwork p{
+    color: #1F847E;
+    font-size: 18px;
+    line-height: 30px;
+}
+.what-is-breathwork h6{
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+}
+.what-is-breathwork ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.what-is-breathwork ul li{
+    font-size: 16px;
+    line-height: 24px;
+}
+.left-content h3{
+    color: #1F847E;
+    line-height: 33px;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.pricing-card h2 {
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 0px;
+}
+
+.pricing-card {
+  background: #ECE8E7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+  width: calc(100% - 60px);
+  margin: 20px 0px 40px 0px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 24px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #16635d;
+}
+
+.right-content article{
+    font-size: 16px;
+    line-height: 24px;
+}
+.left-content ul li{
+    font-size: 16px;
+    line-height: 24px;
+}
+.right-contact-us{
+    font-size: 20px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 30px;
+}
+.right-contact-us:hover{
+    color: #ECE8E7;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1F847E;
+    transition: all ease-in-out 0.3s;
+}
+.right-content ul{
+    display: flex;
+    width: calc(100% - 60px);
+}
+.right-content h3{
+    color: #1F847E;
+    line-height: 25px;
+    font-size: 20px;
+    margin: 30px 0px;
+    text-align: center;
+}
+.photos-breathwork{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+/*
+RETREATS
+*/
+.retreats-intro-image{
+    height: 85vh;
+    width: 100%;
+}
+.retreats-intro-image h1{
+    color: #ECE8E7;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+.retreats-intro-image h6{
+    color: #ECE8E7;
+    font-size: 20px;
+    line-height: 28px;
+    width: 80%;
+}
+.retreats-intro-image a{
+    font-size: 16px;
+}
+.retreats-intro-image a:hover{
+    background-color: rgba(228, 228, 228, 0.573);
+    transition: all ease-in-out 0.5s;  
+    color: rgba(102, 1, 1, 0.777);
+}
+.captivating-section{
+    padding: 30px 20px;
+}
+.captivating-section h1{
+    color: #734982;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.captivating-section h3{
+    color: #734982;
+    font-size: 18px;
+}
+.experience-wrapper-retreats{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+.exp-wrapper-link{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: center;
+    width: 90%;
+    margin: 40px 0px;
+    padding: 0px 10px;
+    
+}
+.photo-retreat{
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp-wrapper-link h6{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.exp-wrapper-link article{
+    color: #734982;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+#start-journey{
+    color: #734982;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    transition: all ease-in-out 0.5s;
+}
+#start-journey:hover{
+    background-color: #734982;
+    color: #ECE8E7;
+    transition: all ease-in-out 0.5s;
+
+}
+.previous-retreats{
+    padding: 30px 20px;
+}
+.retreats-past{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.photo-retreat-example{
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: #ece8e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo-retreat-example-mobile{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: #ece8e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+.photo-retreat-example-desktop{
+    display: none;
+}
+.retreat-description{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.retreat-description h1{
+    color: #ece8e7;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.retreat-description p{
+    color: #ece8e7;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+#explore-link{
+    background-color: #ece8e7;
+    color: #16635d;
+    text-align: center;
+    padding: 10px 20px;
+    transition: all ease-in-out 0.5s;
+
+}
+#explore-link:hover{
+    color: #ece8e7;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all ease-in-out 0.5s;
+    border-bottom: solid 2px;
+}
+
+.upcoming-retreat{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    color: #ECE8E7;
+}
+
+.upcoming-retreat h1{
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+.upcoming-retreat h3{
+    text-align: center;
+}
+.upcoming-retreat p{ 
+    color: #1F847E;
+    font-size: 16px;
+    line-height: 24px;
+}
+.upcoming-retreat ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+.upcoming-retreat ul li{
+    font-size: 16px;
+    line-height: 24px;
+}
+.retreats-list-of-offers{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.offer{
+    width: 90%;
+    height: fit-content;
+    background-color: #734982;
+    padding: 20px 20px 20px 30px;
+    margin: 30px 0px;
+}
+.offer h2{
+    color: #ECE8E7;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.offer h6{
+    color: #ece8e7b7;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.offer li{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+.offer p{
+    font-size: 16px;
+    line-height: 25px;
+    list-style: square;
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.price h5{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: degular;
+}
+.price h6{
+    color: #ECE8E7;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+.new-retreat article{
+    color: #16635d;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.new-retreat a{
+    color: #1F847E;
+    border-bottom: 2px solid #1F847E;
+    transition:  all ease-in-out 0.3s;
+
+}
+.new-retreat a:hover{
+    background-color: #1F847E;
+    color: #ECE8E7;
+    padding: 10px 20px;
+    transition:  all ease-in-out 0.3s;
+}
+
+
+
+
+
+
+
+}
