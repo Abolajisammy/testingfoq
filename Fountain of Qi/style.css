@@ -404,11 +404,51 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 .inner-left h6{
     font-size: 22px;
     line-height: 30px;
-    color: #ECE8E7;
+    background-color: #ECE8E7;
+    color: #734982;
+    border-radius: 8px;
     text-align: right;
-    width: 100%;
+    width: calc(100% - 40px);
+    border-bottom: solid 2px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.5s;
+
 }
-.inner-left p{
+.inner-left h6:hover{
+    background-color: #734982;
+    transition: all ease-in-out 0.5s;
+    color: #ECE8E7;
+    border-radius: 8px;
+}
+.inner-advantage-wrapper .inner-right{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+
+}
+.inner-right h6{
+    font-size: 22px;
+    line-height: 30px;
+    background-color: #ECE8E7;
+    color: #734982;
+    border-radius: 8px;
+    text-align: left;
+    width: calc(100% - 40px);
+    border-bottom: solid 2px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.5s;
+
+}
+.inner-right h6:hover{
+    background-color: #734982;
+    transition: all ease-in-out 0.5s;
+    color: #ECE8E7;
+    border-radius: 8px;
+}
+.inner-left p, .inner-right p{
     font-size: 18px;
     line-height: 26px;
     color: #ECE8E7;
@@ -416,13 +456,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     width: 100%;
     font-family: degular;
 }
-.inner-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
 
-}
 .mobile-inner-right{
     display: none;
     background-image: url(https://www.dropbox.com/scl/fi/p5jqla0qckmgx70z2oe06/Adobe-Express-file.png?rlkey=y7pybu1854qtqp6mfgkr5igy5&st=h5yzxv8g&raw=1);
@@ -455,13 +489,7 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     align-items: center;
     height: fit-content;
 }
-.right-advantage .inner-left h6{
-    font-size: 22px;
-    line-height: 30px;
-    color: #ECE8E7;
-    text-align: left;
-    width: 100%;
-}
+
 .right-advantage .inner-left p{
     font-size: 18px;
     line-height: 26px;
@@ -471,6 +499,12 @@ h1, h2, h3, h4, h5, h6, a, p, article{
     font-family: degular;
 }
 .right-advantage .inner-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.left-advantage .inner-left{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -631,7 +665,12 @@ h1, h2, h3, h4, h5, h6, a, p, article{
 
 .jill { background-image: url(https://www.dropbox.com/scl/fi/dk1bz204hqo8jvvc68xqz/jill.jpg?rlkey=wqmhy6l72lhf6g3k2su5qsx6s&st=uemyxrwn&raw=1);
  }
-
+.katheen{
+    background-image: url(https://www.dropbox.com/scl/fi/kur4osbrqp024buwna8cr/Katheen.JPG?rlkey=acpxaezqiwnfcxq4d8oqz8puv&st=nugtwfve&raw=1);
+}
+.jannine{
+    background-image: url(https://www.dropbox.com/scl/fi/n6cqsoqsrkj632h8ghmwf/Jannine.JPG?rlkey=ybjdpbktq893lovnksinvdu2c&st=b8xk43bs&raw=1);
+}
 
 .name h5 {
   font-size: 20px;
@@ -1094,7 +1133,7 @@ header nav img{
     margin-left: 15px;
 }
 .third-section{
-    padding: 50px 20px;
+    padding: 50px 30px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -1141,6 +1180,7 @@ header nav img{
     line-height: 35px;
     text-align: center;
     width: 100%;
+    margin-top: 20px;
 }
 .inner-left p{
     font-size: 18px;
@@ -1153,9 +1193,10 @@ header nav img{
     display: none;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 0px;
 
 }
+
 .mobile-inner-right{
     display: block;
     background-image: url(https://www.dropbox.com/scl/fi/p5jqla0qckmgx70z2oe06/Adobe-Express-file.png?rlkey=y7pybu1854qtqp6mfgkr5igy5&st=h5yzxv8g&raw=1);
@@ -1168,15 +1209,12 @@ header nav img{
     background-position: center;
     border-radius: 35px;
 }
-.mo .image-wrapper{
-    background-image: url(https://www.dropbox.com/scl/fi/p5jqla0qckmgx70z2oe06/Adobe-Express-file.png?rlkey=y7pybu1854qtqp6mfgkr5igy5&st=h5yzxv8g&raw=1);
-    background-color: #ECE8E7;
-    height: 80px;
-    width: 80px;
-    border-radius: 40px;
-    margin: 20px 0px;
+.inner-right{
+    display: none;
 }
-
+#inner-right{
+    display: none;
+}
 
 .right-advantage{
     width: 100%;
@@ -1203,7 +1241,21 @@ header nav img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.right-advantage .inner-right h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.right-advantage .inner-right p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .slide-show-wrapper{
     background-color:#1F847E;
