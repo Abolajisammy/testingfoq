@@ -1135,6 +1135,239 @@ RETREATS
     background-image: url(https://www.dropbox.com/scl/fi/xa3znxoa50fh5mykulobj/Retreats-media-4.JPG?rlkey=bswycerwzl2db65z71m4o4fi7&st=rcc42s5w&raw=1);
 }
 
+/*
+GROOVE
+*/
+
+.dance-intro-image{
+  width: calc(100% - 100px);
+  padding: 0px 50px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://www.dropbox.com/scl/fi/jqt48soj7d0qg3dtmuweo/danceguide.jpg?rlkey=jglt513doozr4tshcnw0wx2yd&st=ta98prfl&raw=1);
+}
+.dance-intro-image h1{
+    font-size: 40px;
+    color: #ECE8E7;
+}
+#aesthetic-dance{
+    padding: 50px 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECE8E7;
+}
+#aesthetic-dance h2{
+    color: #1F847E;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#aesthetic-info{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+#aesthetic-info p{
+    width: 45%;
+    color: #1F847E;
+    font-size: 25px;
+    line-height: 38px;
+}
+#aesthetic-photo{
+    width: 45%;
+    height: 40vh;
+    background-image: url(https://www.dropbox.com/scl/fi/szn0z0laajqv3zlu5tyu7/aesthetic-dance-6.jpg?rlkey=gmsdtddipuoqba6xu9am6xhto&st=709yfamy&raw=1);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+} 
+#aesthetic-info ul{
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px;
+}
+#aesthetic-info ul h3{
+    color: #1F847E;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#aesthetic-info ul p{
+    color: #1F847E;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#aesthetic-offer{
+    width: calc(45% - 80px);
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #734982;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+#aesthetic-offer ul{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+#aesthetic-offer ul li{
+    color: #ECE8E7;
+    font-size: 22px;
+    line-height: 40px;
+    width: 100%;
+    list-style: square;
+}
+#aesthetic-offer ul h3{
+    color: #ECE8E7;
+    font-size: 25px;
+    line-height: 40px;
+    width: 100%;
+    list-style: square;
+}
+.mobile-aesthetic-offer{
+    display: none;
+}
+.book-a-session{
+    color: #ECE8E7;
+    padding: 20px 0px;
+    width: 100%;
+    background-color: #734982;
+    font-size: 20px;
+    margin: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+.book-a-session:hover{
+    background-color: #1F847E;
+    transition: all 0.3s ease-in;
+
+}
+
+.chakra-dance{
+    padding: 50px 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #734982;
+}
+.chakra-dance h2{
+    color: #ECE8E7;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.chakra-content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.chakra-content article{
+    font-size: 25px;
+    color: #ECE8E7;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.chakra-exp{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.left-chakra-exp, .right-chakra-exp{
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.left-chakra-exp h6{
+    font-size: 30px;
+    color: #ECE8E7;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.left-chakra-exp ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px 40px;
+}
+.left-chakra-exp ul li{
+    color: #ECE8E7;
+    font-size: 25px;
+    line-height: 33px;
+    list-style: square;
+}
+.left-chakra-exp article{
+    text-align: left;
+}
+.chakra-offer-wrapper{
+    padding-bottom: 40px;
+    background-color: #ECE8E7;
+    border-radius: 12px;
+}
+.chakra-offer-wrapper .photo-chakra{
+    background-image: url(https://www.dropbox.com/scl/fi/6wimu3mtyme6qb2zo39ql/Chakra-dance-1.jpg?rlkey=z97kg2bvmr9hjky75sp51zhd8&st=ylh2403m&raw=1);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.chakra-details{
+    padding: 0px 20px;
+}
+.chakra-details h4{
+    font-size: 25px;
+    color: #734982;
+    line-height: 35px;
+}
+.chakra-details article{
+    color: #734982;
+    margin: 5px 0px;
+    text-align: left;
+}
+#h4-bottom{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1815,6 +2048,247 @@ RETREATS
     color: #ECE8E7;
     padding: 10px 20px;
     transition:  all ease-in-out 0.3s;
+}
+/*
+GROOVE
+*/
+
+.dance-intro-image{
+  width: 100%;
+  padding: 0px 0px;
+  height: 90vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.dance-intro-image h1{
+    font-size: 40px;
+    color: #ECE8E7;
+}
+#aesthetic-dance{
+    padding: 30px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECE8E7;
+}
+#aesthetic-dance h2{
+    color: #1F847E;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+#aesthetic-info{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+#aesthetic-info p{
+    width: 100%;
+    color: #1F847E;
+    font-size: 18px;
+    line-height: 28px;
+}
+#aesthetic-photo{
+    width: 100%;
+    height: 50vh;
+    margin: 40px 0px;
+    background-image: url(https://www.dropbox.com/scl/fi/szn0z0laajqv3zlu5tyu7/aesthetic-dance-6.jpg?rlkey=gmsdtddipuoqba6xu9am6xhto&st=709yfamy&raw=1);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+} 
+#aesthetic-info ul{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0px;
+}
+#aesthetic-info ul h3{
+    color: #1F847E;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#aesthetic-info ul p{
+    color: #1F847E;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#aesthetic-offer{
+    display: none;
+}
+#aesthetic-book-desk{
+    display: none;
+}
+.mobile-aesthetic-offer ul{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.mobile-aesthetic-offer ul li{
+    color: #ECE8E7;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    list-style: square;
+}
+.mobile-aesthetic-offer ul h3{
+    color: #ECE8E7;
+    font-size: 25px;
+    line-height: 40px;
+    width: 100%;
+    list-style: square;
+}
+.mobile-aesthetic-offer{
+    display: block;
+    width: calc(100% - 80px);
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #734982;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+#aesthetic-book-mobile{
+    background-color: #ECE8E7;
+    color: #734982;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+#aesthetic-book-mobile:hover{
+    background-color: #734982;
+    color: #ECE8E7;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.book-a-session{
+    color: #ECE8E7;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #734982;
+    font-size: 18px;
+    margin: 10px 0px;
+    transition: all 0.3s ease-in;
+}
+.book-a-session:hover{
+    background-color: #1F847E;
+    transition: all 0.3s ease-in;
+
+}
+
+.chakra-dance{
+    padding: 30px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #734982;
+}
+.chakra-dance h2{
+    color: #ECE8E7;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.chakra-content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.chakra-content article{
+    font-size: 18px;
+    color: #ECE8E7;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.chakra-exp{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.left-chakra-exp, .right-chakra-exp{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.left-chakra-exp h6{
+    font-size: 18px;
+    color: #ECE8E7;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.left-chakra-exp ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px 40px;
+}
+.left-chakra-exp ul li{
+    color: #ECE8E7;
+    font-size: 18px;
+    line-height: 25px;
+    list-style: square;
+}
+.left-chakra-exp article{
+    text-align: left;
+
+}
+.chakra-offer-wrapper{
+    padding-bottom: 40px;
+    background-color: #ECE8E7;
+    border-radius: 12px;
+}
+.chakra-offer-wrapper .photo-chakra{
+    background-image: url(https://www.dropbox.com/scl/fi/6wimu3mtyme6qb2zo39ql/Chakra-dance-1.jpg?rlkey=z97kg2bvmr9hjky75sp51zhd8&st=ylh2403m&raw=1);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.chakra-details{
+    padding: 0px 20px;
+}
+.chakra-details h4{
+    font-size: 22px;
+    color: #734982;
+    line-height: 35px;
+}
+.chakra-details article{
+    color: #734982;
+    margin: 5px 0px;
+    text-align: left;
+    font-size: 18px;
+}
+#h4-bottom{
+    margin-bottom: 50px;
 }
 
 
