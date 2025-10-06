@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6, p, article,li, a{
 .qigong-intro{
   background-image: url("https://www.dropbox.com/scl/fi/ethapv9ydg5l619l16xi9/qigong-mobile.jpg?rlkey=46oj139vixx9opb3m87fmukwe&st=if1e5fmo&raw=1");
  background-repeat: no-repeat;
+ background-position: top;
  height: 82vh;
 }
 .qigong-wrapper{
@@ -301,7 +302,7 @@ BREATHWORK
   justify-content: center;
   align-items: center;
   box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(https://www.dropbox.com/scl/fi/nuwaaxsynmcscw1bybdv3/IMG_0111.jpg?rlkey=0dho779121xkzf92hf0283dv8&st=5qj6e4an&raw=1);
@@ -1378,9 +1379,28 @@ GROOVE
 #h4-bottom{
     margin-bottom: 50px;
 }
+/*
+MASSAGE
+*/
+#massage-section{
+    background-image: url(https://www.dropbox.com/scl/fi/x2y027iikcxuv5hx5z3iw/Massage-1.jpg?rlkey=w9kkhm8w41rlw1xaudsqqhd53&st=61iwco1a&raw=1);
+    width: calc(100% - 100px);
+    padding: 0px 50px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2500px 0 0 0 rgba(0, 0, 0, 0.2);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+#massage-section h1{
+    color: #ECE8E7;
+    font-size: 40px;
 
-
+}
 
 
 
