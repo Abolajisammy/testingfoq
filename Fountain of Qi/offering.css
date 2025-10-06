@@ -163,6 +163,7 @@
 @media screen and (max-width: 1000px) {
 .about-intro-image{
   background-position: center;  
+  background-position: right;
 
 }
 .offerings-intro-image h1{
