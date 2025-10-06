@@ -1477,7 +1477,7 @@ MASSAGE
 .qigong-intro{
   background-image: url("https://www.dropbox.com/scl/fi/ethapv9ydg5l619l16xi9/qigong-mobile.jpg?rlkey=46oj139vixx9opb3m87fmukwe&st=if1e5fmo&raw=1");
  background-repeat: no-repeat;
- background-position: center;
+ background-position: top;
 }
 .qigong-wrapper{
     display: flex;
@@ -1588,7 +1588,7 @@ BREATHWORK
 .wrapper {
   width: calc(100% - 40px);
   padding: 0px 20px;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(https://www.dropbox.com/scl/fi/0261d59a360zss0z8h0du/breathwork-mobile.jpg?rlkey=dn1g62le4qew5c6n3pdsl282x&st=0h5ex5ym&raw=1);
