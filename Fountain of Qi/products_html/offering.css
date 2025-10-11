@@ -588,7 +588,7 @@ BREATHWORK
 }
 .free-meditation{
     padding: 50px 100px;
-    display: flex;
+    display: none;
     flex-flow: column;
     justify-content: center;
     align-items: center;
@@ -1163,8 +1163,8 @@ GROOVE
 
 .dance-intro-image{
   width: calc(100% - 100px);
-  padding: 0px 50px;
-  height: 90vh;
+  padding: 25px 50px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1831,18 +1831,18 @@ MASSAGE
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 40px;
+    padding: 30px 20px;
     color: #734982;
 }
 .qigong-wrapper h3{
     font-size: 25px;
     line-height: 38px;
-    margin: 30px 0px;
+    margin: 10px 0px;
     text-align: center;
 }
 .qigong-details{
     width: calc(100% - 20px);
-    padding: 10px;
+    padding: 0px 10px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -1859,12 +1859,14 @@ MASSAGE
 .inner-qigong-details h4{
     font-size: 25px;
     line-height: 38px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .inner-qigong-details p{
     font-size: 18px;
     line-height: 30px;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    text-align: left;
+    color: #734982;
 }
 .inner-qigong-details ul{
     display: flex;
@@ -1916,9 +1918,15 @@ MASSAGE
 }
 .book-a-session a{
     font-size: 20px;
+    color: #ECE8E7;
+    padding: 10px 20px;
+    border: none;
 }
 .book-a-session a:hover{
     font-size: 20px;
+    color: #ECE8E7;
+    padding: 10px 20px;
+    border: none;
 }
 .photos-qigong .photos-3{
     background-image: url(https://www.dropbox.com/scl/fi/rwg5ihv9qcqh0pwz9bt9f/Retreats-media-1.JPG?rlkey=ap2al5b4qcrdyl5wq3j5ruq8c&st=hmrxwf3g&raw=1);
@@ -2478,8 +2486,8 @@ GROOVE
 
 .dance-intro-image{
   width: 100%;
-  padding: 20px 0px;
-  height: 100vh;
+  padding: 0px 0px;
+  height: 90vh;
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
