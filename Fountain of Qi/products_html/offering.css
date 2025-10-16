@@ -804,7 +804,7 @@ RETREATS
 
 }
 .retreats-intro-image{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -966,6 +966,10 @@ RETREATS
 }
 .retreat-description{
     width: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 .retreat-description h1{
     color: #ece8e7;
@@ -982,8 +986,10 @@ RETREATS
     background-color: #ece8e7;
     color: #16635d;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 0px;
     transition: all ease-in-out 0.5s;
+    border-radius: 8px;
+    width: 100%;
 
 }
 #explore-link:hover{
@@ -2306,7 +2312,7 @@ audio {
 RETREATS
 */
 .retreats-intro-image{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
 }
 .retreats-intro-image h1{
@@ -2436,7 +2442,8 @@ RETREATS
     color: #ece8e7;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 #explore-link{
     background-color: #ece8e7;
@@ -2444,7 +2451,7 @@ RETREATS
     text-align: center;
     padding: 10px 20px;
     transition: all ease-in-out 0.5s;
-
+    width: 90%;
 }
 #explore-link:hover{
     color: #ece8e7;
@@ -2825,7 +2832,7 @@ MASSAGE
 }
 .massage{
     padding: 30px 20px;
-    width: 80%;
+    width: calc(90% - 40px);
     border-radius: 8px;
 
 }
@@ -2853,7 +2860,7 @@ MASSAGE
 }
 .energy-session{
     padding: 30px 20px;
-    width: 80%;
+    width: calc(90% - 40px);
     border-radius: 12px;
     margin: 50px 0px;
 }
@@ -2896,6 +2903,7 @@ MASSAGE
     background-size: cover;
     height: 40vh;
     width: 100%;
+    padding: 0;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -3043,7 +3051,7 @@ MASSAGE
         margin: 40px 0px;
 }
 #footer-massage{
-    width: 100%;
+    width: 90%;
 }
 .online-intro-image{
         background-image: url(https://www.dropbox.com/scl/fi/y29e413bzlsimit49pg31/online-class-potrait.png?rlkey=59ximdkkaeyfgmqxod9dy9qs7&st=a5kxu8iw&raw=1);
